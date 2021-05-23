@@ -35,13 +35,11 @@
       let dom = document.querySelector('#root')
       let title = "新タイトル"
       let message = "新しいメッセージです"
-      let link = "http://google.com"
+      let link = "./react_app.html"
 
       let el = (
         <div className="alert alert-primary">
-          <h3>{title}</h3>
-          <h4>{message}</h4>
-          <h5><a href={link}>this is a link!</a></h5>
+          <h5><a href={link}>ページ遷移</a></h5>
         </div>
       )
 
